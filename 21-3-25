@@ -1,0 +1,64 @@
+5 questions of day:
+1] Print you name in 1st line, Roll no. in 2nd line, and Khick Khick in 3rd line.
+:-
+#include <stdio.h>
+
+int main() {
+    printf("My name is Sakshi Bhosale\nRoll no.:-SCFU124062\nKhick Khick");
+
+    return 0;
+}
+2] Print 1-10 numbers in each separate line, using only 1 prinf() function.
+:-
+#include <stdio.h>
+
+int main() {
+    printf("1\n2\n3\n4\n5\n6\n7\n8\n9\n10");
+
+    return 0;
+}
+
+   
+3] Print this pattern using printf() function:
+*
+* *
+* * *
+* * * *
+* * * * *
+:-
+#include <stdio.h>
+
+int main() {
+    printf("*\n* *\n* * *\n* * * *\n* * * * *");
+
+    return 0;
+}
+
+4] Print this pattern using only 1 printf() function:
+* * * * *
+* * * *
+* * *
+* *
+*
+:-
+#include <stdio.h>
+
+int main() {
+    printf("* * * * *\n* * * *\n* * *\n* *\n*");
+
+    return 0;
+}
+5] Print this pattern using printf():
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+:-
+#include <stdio.h>
+
+int main() {
+    printf("        *\n      * * *\n    * * * * *\n  * * * * * * *\n* * * * * * * * *");
+
+    return 0;
+}
