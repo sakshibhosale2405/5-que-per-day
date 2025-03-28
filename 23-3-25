@@ -1,0 +1,94 @@
+5 Questions of day:
+1] Write a program to add 2 integers (in a third variable) and display their sum.
+:-
+#include <stdio.h>
+
+int main() {
+   int num1,num2,c;
+   printf("enter a value of num1,num2:");
+   scanf("%d %d",&num1,&num2);
+    printf(" You entered a value of num1,num2 is %d %d:\n",num1,num2);
+ c=num1+num2;
+ printf("Sum of num1 and num2 is: %d",c);
+    return 0;
+}
+
+
+2] Write a program to add 2 float variable and display their sum.
+:-
+#include <stdio.h>
+
+int main() {
+   float num1,num2;
+   printf("enter a value of num1,num2:");
+   scanf("%f %f",&num1,&num2);
+    printf("You entered a value of num1,num2 is %.1f %.1f:\n",num1,num2);
+ 
+ printf("Sum of num1 and num2 is: %.1f",num1+num2);
+    return 0;
+}
+
+3] Write a program to add 1 integer and 1 float datatype variable and display their value in both %d and %f formats.
+:-
+#include <stdio.h>
+
+int main() {
+   int num1,c;
+   float num2,d;
+   printf("enter a value of num1,num2:");
+   scanf("%d %f",&num1,&num2);
+    printf("You entered a value of num1,num2 is %d %.1f:\n",num1,num2);
+    c=num1+num2;
+    d=num1+num2;
+ printf("Sum of num1 and num2 is:%d\n",c);
+ printf("Sum of num1 and num2 is:%.1f",d);
+ 
+ 
+    return 0;
+}
+4] Write a program to perform all arithmetic (Sum, Sub, Mul, Div, Mod) operations with 2 variables only and display each of them in separate printf() s function.
+:-
+#include <stdio.h>
+
+int main() {
+   int num1,num2;
+   
+   printf("enter a value of num1,num2:");
+   scanf("%d %d",&num1,&num2);
+    printf("You entered a value of num1,num2 is %d %d:\n",num1,num2);
+ printf("Sum of num1 and num2 is:%d\n",num1+num2);
+ printf("subtraction of num1 and num2 is:%d\n",num1-num2);
+ printf("multiplication of num1 and num2 is:%d\n",num1*num2);
+ printf("division of num1 and num2 is:%d\n",num1/num2);
+ printf("modulus of num1 and num2 is:%d",num1%num2);
+ 
+ 
+ 
+    return 0;
+}
+
+5] Write a program to perform all arithmetic operations and store result in third variable, and display the third variable as result result in printf() [ there should be only 3 variables to be declared
+:-
+#include <stdio.h>
+
+int main() {
+   int num1,num2,c;
+   
+   printf("enter a value of num1,num2:");
+   scanf("%d %d",&num1,&num2);
+    printf("You entered a value of num1,num2 is %d %d:\n",num1,num2);
+c=num1+num2;
+ printf("Sum of num1 and num2 is:%d\n",c);
+ c=num1-num2;
+ printf("subtraction of num1 and num2 is:%d\n",c);
+ c=num1*num2;
+ printf("multiplication of num1 and num2 is:%d\n",c);
+ c=num1/num2;
+ printf("division of num1 and num2 is:%d\n",c);
+ c=num1%num2;
+ printf("modulus of num1 and num2 is:%d",c);
+ 
+ 
+ 
+    return 0;
+}
