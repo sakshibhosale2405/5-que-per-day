@@ -1,0 +1,84 @@
+5 Questions of day:
+1] take string as a input and display each character in seperate printf()
+:-
+#include <stdio.h>
+
+int main() {
+   char str[100];
+   
+   printf("enter a string:");
+   scanf("%s",str);
+    printf("%c",str[0]);
+    printf("%c",str[1]);
+    printf("%c",str[2]);
+    printf("%c",str[3]);
+    printf("%c",str[4]);
+    printf("%c",str[5]);
+ 
+    return 0;
+}
+
+
+2] Take string input, and display the whole string in a single printf but without %s format specifier.
+:-
+#include <stdio.h>
+
+int main() {
+   char str[100];
+   
+   printf("enter a string:");
+   scanf("%s",str);
+    printf("%c%c%c%c%c%c",str[0],str[1],str[2],str[3],str[4],str[5]);
+   
+ 
+    return 0;
+}
+3] Take a character input and print its ascii value (ascii means the integer value of the character, i.e we print it by using %d)
+:-
+#include <stdio.h>
+
+int main() {
+   char ch;
+   
+   printf("enter a character:");
+   scanf("%c",&ch);
+    printf("%d",ch);
+   
+ 
+    return 0;
+}
+
+
+4] Take string as a input and print ascii value of each charater
+:-
+#include <stdio.h>
+
+int main() {
+   char str[100];
+   
+   printf("enter a string:");
+   scanf("%s",str);
+    printf("%d %d %d %d %d %d",str[0],str[1],str[2],str[3],str[4],str[5]);
+   
+ 
+    return 0;
+}
+5] Swap 2 numbers using 3 variables
+:-
+#include <stdio.h>
+
+int main() {
+   int num1,num2,c;
+   
+   printf("enter a num1 and num2:");
+   scanf("%d %d",&num1,&num2);
+   c=num1;
+   num1=num2;
+   num2=c;
+    printf("%d %d",num1,num2);
+   
+ 
+    return 0;
+}
+
+   
