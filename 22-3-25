@@ -1,0 +1,86 @@
+5 Questions of the day:
+1] Take 1 integer input using scanf() and display its value in printf().
+:-
+#include <stdio.h>
+
+int main() {
+   int num;
+   printf("Enter a number:");
+   scanf("%d",&num);
+   printf("Your entered no.is %d",num);
+
+    return 0;
+}
+
+2] Take 5 int variable input using 5 scanf() and print each of there value using separate printf().
+:-
+#include <stdio.h>
+
+int main() {
+   int num1,num2,num3,num4,num5;
+   printf("Enter a number1:");
+   scanf("%d",&num1);
+   printf("Your entered no.is %d\n",num1);
+   printf("Enter a number2:");
+   scanf("%d",&num2);
+   printf("Your entered no.is %d\n",num2);
+   printf("Enter a number3:");
+   scanf("%d",&num3);
+   printf("Your entered no.is %d\n",num3);
+   printf("Enter a number4:");
+   scanf("%d",&num4);
+   printf("Your entered no.is %d\n",num4);
+   printf("Enter a number5:");
+   scanf("%d",&num5);
+   printf("Your entered no.is %d",num5);
+
+    return 0;
+}
+3] Take 5 any variable of any type, using single scanf() and print each of there value using single printf() only.
+:-
+#include <stdio.h>
+
+int main() {
+   int num1,num2,num3,num4,num5;
+   printf("Enter a number1,number2,number3,number4,number5:");
+   scanf("%d %d %d %d %d",&num1,&num2,&num3,&num4,&num5);
+   printf("Your entered no.s are:%d %d %d %d %d",num1,num2,num3,num4,num5);
+   
+
+    return 0;
+}
+4] Take input in following order: 
+int, float, char
+:-
+#include <stdio.h>
+
+int main() {
+   int num1;
+   float num2;
+   char ch;
+   printf("Enter a number1,number2,character:");
+   scanf("%d %f %c",&num1,&num2,&ch);
+   printf("Your entered values are:%d %f %c",num1,num2,ch);
+   
+
+    return 0;
+}
+
+5] Take input in following order:
+char, float, int
+And print them in following order:
+int, float, char
+:-
+#include <stdio.h>
+
+int main() {
+   char ch;
+   float num1;
+   int num2;
+   printf("Enter a character,number1,number2:");
+   scanf("%c %f %d",&ch,&num1,&num2);
+   printf("Your entered values are in order:%d %f %c",num2,num1,ch);
+   
+
+    return 0;
+}
