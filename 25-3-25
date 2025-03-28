@@ -1,0 +1,69 @@
+5 Questions of day:
+1] Swap 2 variables value, without any third variable.
+:-
+#include <stdio.h>
+
+int main() {
+   int num1,num2;
+   
+   printf("enter a num1 and num2:");
+   scanf("%d %d",&num1,&num2);
+   num1=num1+num2;
+   num2=num1-num2;
+   num1=num1-num2;
+    printf("%d %d",num1,num2);
+   
+ 
+    return 0;
+}
+
+2] Take character as input and add 1 to the character value, and print it (observe it and understand it properly)
+:-
+#include <stdio.h>
+
+int main() {
+   char ch;
+   printf("Enter a character:");
+   scanf("%c",&ch);
+   printf("%c",ch+1);
+   
+ 
+    return 0;
+}
+
+3] Take integer as input, and print it in character. [select an ascii value of the character from the ascii table]
+:-
+#include <stdio.h>
+
+int main() {
+   int a;
+   printf("enter a ascii value:");
+   scanf("%d",&a);
+   printf("%c",a);
+ 
+    return 0;
+}
+4] Take a character as input in small case, and print it in capital case [ hint: subtract 32 from character value and print]
+:-
+#include <stdio.h>
+
+int main() {
+   char ch;
+   printf("enter a character:");
+   scanf("%c",&ch);
+   printf("Upper case of character of %c is %c",ch,ch-32);
+ 
+    return 0;
+}
+5] Take a string input in small case, and print all in capital case.
+:-
+#include <stdio.h>
+
+int main() {
+   char str[100];
+   printf("enter a string:");
+   scanf("%s",&str);
+   printf("Upper case of string %s is %c%c%c%c%c%c",str,str[0]-32,str[1]-32,str[2]-32,str[3]-32,str[4]-32,str[5]-32);
+ 
+    return 0;
+}
