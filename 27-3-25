@@ -1,0 +1,299 @@
+5 Questions of day:
+1] Write a program to find greatest among 2 [without using logical operators].
+#include <stdio.h>
+ int main(){
+
+ int a,b;
+ printf("enter a value of a and b:");
+scanf("%d %d" ,&a ,&b);
+if(a>b)
+ {
+     printf("a is greater no.");
+ }
+ else if(a==b)
+ {
+printf("both no.s are equal");
+}
+else
+ {
+printf("b is greater no.");
+}
+return 0;
+ }
+2] Write a program to find greatest among 3 [without using logical operators].
+:-
+#include <stdio.h>
+ int main(){
+
+ int a,b,c;
+ printf("enter a value of a,b and c:");
+scanf("%d %d %d",&a ,&b,&c);
+if(a>b)
+{
+    if(a>c)
+    {
+        printf("a");
+    }
+    else
+    {
+        printf("c");
+    }
+}
+else
+{
+    if(b>c)
+    {
+        printf("b");
+    }
+    else
+    {
+        printf("c");
+    }
+}
+ 
+return 0;
+ }
+3] Write a program to find greatest among 4 [without using logical operators].
+:-
+#include <stdio.h>
+
+int main() {
+
+    int a, b, c, d;
+    printf("Enter values of a, b, c and d: ");
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+
+    if (a > b)
+    {
+        if (a > c) 
+        {
+            if (a > d)
+            {
+                printf("a");
+            }
+            else 
+            {
+                printf("d");
+            }
+        }
+        else 
+        {
+            if (c > d)
+            {
+                printf("c");
+            } 
+            else
+            {
+                printf("d");
+            }
+        }
+    } 
+    else 
+    {
+        if (b > c)
+        {
+            if (b > d)
+            {
+                printf("b");
+            } 
+            else
+            {
+                printf("d");
+            }
+        } 
+        else 
+        {
+            if (c > d) 
+            {
+                printf("c");
+            }
+            else
+            {
+                printf("d");
+            }
+        }
+    }
+
+    return 0;
+}
+4] Write a program to find greatest among 5 [without using logical operators].
+:-
+#include <stdio.h>
+
+int main() {
+
+    int a, b, c, d, e;
+    printf("Enter values of a, b, c, d and e: ");
+    scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
+
+    if (a > b)
+    {
+        if (a > c) 
+        {
+            if (a > d) 
+            {
+                if (a > e) 
+                {
+                    printf("a");
+                } 
+                else 
+                {
+                    printf("e");
+                }
+            } 
+            else
+            {
+                if (d > e) 
+                {
+                    printf("d");
+                } 
+                else
+                {
+                    printf("e");
+                }
+            }
+        } 
+        else
+        {
+            if (c > d) 
+            {
+                if (c > e)
+                {
+                    printf("c");
+                } 
+                else 
+                {
+                    printf("e");
+                }
+            } 
+            else 
+            {
+                if (d > e) 
+                {
+                    printf("d");
+                }
+                else
+                {
+                    printf("e");
+                }
+            }
+        }
+    }
+    else
+    {
+        if (b > c) 
+        {
+            if (b > d) 
+            {
+                if (b > e)
+                {
+                    printf("b");
+                } else 
+                {
+                    printf("e");
+                }
+            } 
+            else 
+            {
+                if (d > e) 
+                {
+                    printf("d");
+                } 
+                else 
+                {
+                    printf("e");
+                }
+            }
+        } 
+        else
+        {
+            if (c > d) 
+            {
+                if (c > e) 
+                {
+                    printf("c");
+                } 
+                else 
+                {
+                    printf("e");
+                }
+            } 
+            else 
+            {
+                if (d > e) 
+                {
+                    printf("d");
+                } 
+                else 
+                {
+                    printf("e");
+                }
+            }
+        }
+    }
+
+    return 0;
+}
+
+
+5] Write a program to find greatest among 3 [use logical operator].
+:-
+#include <stdio.h>
+
+int main() {
+   int a,b,c;
+   printf("enter a value of a,b and c:");
+   scanf("%d %d %d",&a,&b,&c);
+   if(a>b && a>c)
+   {
+       printf("a is greater no.");
+   }
+   else if(b>c && b>a)
+   {
+       printf("b is greater no.");
+   }
+   else
+   {
+       printf("c is greater no.");
+   }
+    return 0;
+}
+6] Write a program to find greatest among 6 [use logical operator].
+:-
+#include <stdio.h>
+
+int main() {
+    int a,b,c,d,e,f;
+    printf("enter value of a,b,c,d,e and f");
+    scanf("%d %d %d %d %d %d",&a,&b,&c,&d,&e,&f);
+    if(a>b && a>c && a>d && a>e && a>f)
+    {
+        printf("a is greater no.");
+        
+    }
+     else if(b>a && b>c && b>d && b>e && b>f)
+    {
+        printf("b is greater no.");
+        
+    }
+     else if(c>a && c>b && c>d && c>e && c>f)
+    {
+        printf("c is greater no.");
+        
+    }
+ else if(d>a && d>b && d>c && d>e && d>f)
+    {
+        printf("d is greater no.");
+        
+    }
+ else if(e>a && e>b && e>c && e>d && e>f)
+    {
+        printf("e is greater no.");
+        
+    }
+    else
+    {
+        printf("f is greater no.");
+    }
+return 0;
+}
