@@ -1,0 +1,44 @@
+5 Questions of day:
+1] Find if a number is even.
+:-
+#include <stdio.h>
+
+int main() {
+    int num;
+    printf("Enter a number:");
+    scanf("%d",&num);
+    if(num%2==0)
+    {
+        printf("%d is even number",num);
+    }
+    else
+    {
+        printf("%d is odd number",num);
+    }
+  
+   return 0;
+}
+2] Find if a number is odd.
+:-
+#include <stdio.h>
+
+int main() {
+    int num;
+    printf("Enter a number:");
+    scanf("%d",&num);
+    if(num%2!=0)
+    {
+        printf("%d is odd number",num);
+    }
+    else
+    {
+        printf("%d is even number",num);
+    }
+  
+   return 0;
+}
+3] Take 2 numbers input and find if the 1st number is divisible by 2nd number or not.
+:-
+
+4] Do the 3rd question same but a little change such that, don't print in condition, just take another variable assign it to 0, and if the number is divisible just increment it, and at last check if variable has changed or not, by this print if number is divisible or not.
+5] Take a 3 digit number as input, now just perform mod operation with 10 and store it another variable and print that and divide the original number by 10. Make it happen 3 times.
