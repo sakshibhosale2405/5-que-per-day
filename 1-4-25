@@ -1,0 +1,86 @@
+5 Questions of day:
+// 1] Write a program, take n as a input, perform mod 10 operation to that variable, and print the value. [ Observe what happens with mod 10].
+// #include<stdio.h>
+// int main()
+// {
+//     int n,c;
+//     printf("enter a number:");
+//     scanf("%d",&n);
+//     c=n%10;
+
+//     printf("%d",c);
+//     return 0;
+// }
+// ----------------------------------------------------------------------------------------------------------------
+// 2] Take 3 digits of input, seperate each digit and print each digit seperately.[without loop]
+// #include<stdio.h>
+// int main()
+// {
+//     int n,c,d,e;
+//     printf("enter a three digit number:");
+//     scanf("%d",&n);
+//     c=n%10;
+//     n=n/10;
+//     d=n%10;
+//     n=n/10;
+//     e=n%10;
+   
+//     printf("%d %d %d",c,d,e);
+
+
+//     return 0;
+// }
+// ---------------------------------------------------------------------------------------
+// 3] Take 4 digits of input, seperate each digit separately[ without loop]
+// #include<stdio.h>
+// int main()
+// {
+//     int num,a,b,c,d;
+//     printf("Enter a number:");
+//     scanf("%d",&num);
+//     a=num%10;
+//     num=num/10;
+//     b=num%10;
+//     num=num/10;
+//     c=num%10;
+//     num=num/10;
+//     d=num%10;
+//     num=num/10;
+//     printf("%d %d %d %d",a,b,c,d);
+
+
+// }
+// ---------------------------------------------------------------------------------
+// 4] Take a n as a input and display each digit.[ using loops]
+// #include<stdio.h>
+// int main(){
+//     int num,a;
+//     printf("Enter a number:");
+//     scanf("%d",&num);
+//     while(num>0)
+//     {
+//         a=num%10;
+//         num=num/10;
+//         printf("%d ",a);
+//     }
+// }
+// ----------------------------------------------------------------------------------
+// 5] Take n as input, and display the sum of digits
+// #include<stdio.h>
+// int main()
+// {
+//     int num,a,sum=0;
+//     printf("Enter a number:");
+//     scanf("%d",&num);
+//     printf("your entered digits are:");
+//     while(num>0)
+//     {
+//         a=num%10;
+//         num=num/10;
+//        sum+=a;
+//         printf("%d ",a);
+//     }
+    
+//     printf("sum of digits is %d",sum);
+// }
+// --------------------------------------------------------------------------------------------
